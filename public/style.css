@@ -1,0 +1,59 @@
+body {
+    /* background-color: rgb(17 16 16 / 89%); */
+     background-color: rgb(39 37 28 / 96%)
+}
+.menu-color-fixed {
+    background-color: #726e54e3 !important;
+}
+.sticky-menu {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000;
+}
+
+.content-myth-home{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.center-image{
+    margin-top: 70px;
+}
+.myth-meta{
+    display: flex;
+}
+.myth-meta ul {
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+.card-myth{
+    cursor: pointer;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 200px !important;
+    height: 30rem !important;
+    max-height:fit-content !important;
+    margin: 5% 1% !important;
+    overflow-y: hidden !important;
+}
+
+.card-myth img{
+    width: 100% !important;
+    max-width: 200px !important;
+    height: 18rem !important;
+    max-height:fit-content !important;
+    object-fit: cover;
+    transition: ease-in-out 10s !important;
+}
+.card-myth img:hover{
+    object-fit: contain;  
+}
+.myth-modal-description p{
+    font-weight: bold;
+    
+}
+.myth-modal-description p span{
+    font-weight: 400 !important ;
+}
